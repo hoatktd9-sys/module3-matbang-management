@@ -37,3 +37,8 @@ build/
 
 ### Mac OS ###
 .DS_Store
+# Bổ sung thêm thư mục out của IntelliJ
+/out/
+
+# KHÔNG ĐƯỢC lọc file database (Đảm bảo file .sql của bạn được tải lên)
+!*.sql
